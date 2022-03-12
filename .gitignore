@@ -1,0 +1,6 @@
+.idea/
+taurshare
+
+# Database secrets
+config.xml
+wallet/

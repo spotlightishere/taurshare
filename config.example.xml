@@ -1,0 +1,9 @@
+<Config>
+    <!-- The TNS connection string as provided within "DB Connection".-->
+    <ConnectionString>(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=AAAAAAAAAAAAAAAAA_dbname_high.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adwc.uscom-east-1.oraclecloud.com, OU=Oracle BMCS US, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))</ConnectionString>
+    <!-- The password specified while downloading the Oracle Wallet. -->
+    <WalletPassword>hunter2</WalletPassword>
+    <!-- Credentials specified for the user to connect via. -->
+    <DatabaseUser>CoolUser</DatabaseUser>
+    <DatabasePassword>hunter2</DatabasePassword>
+</Config>
